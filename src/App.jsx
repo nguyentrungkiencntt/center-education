@@ -1,14 +1,17 @@
-
-import './App.css'
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from "./components/Login";
+import Register from "./components/Register";
 
 function App() {
- 
-
   return (
-    <div>
-      <h1>Vite + React</h1>
-    </div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
