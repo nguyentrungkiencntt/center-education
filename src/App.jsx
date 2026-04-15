@@ -1,14 +1,12 @@
-
-import './App.css'
+import { Router, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
- 
-
   return (
-    <div>
-      <h1>Vite + React</h1>
+    <div className="min-h-screen">
+      Home
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
