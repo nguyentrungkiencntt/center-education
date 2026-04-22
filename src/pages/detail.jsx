@@ -3,7 +3,7 @@ function Detail() {
     title: "Khóa học Lập trình Web Fullstack",
     description:
       "Học từ cơ bản đến nâng cao, xây dựng website hoàn chỉnh với ReactJS, NodeJS và dự án thực tế.",
-    
+
     teacher: "Nguyễn Văn A",
     duration: "6 tháng",
     lessons: 48,
@@ -88,30 +88,39 @@ function Detail() {
             </h2>
 
             <div className="space-y-4">
-              <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
-                <h3 className="font-semibold text-blue-800">Buổi 1 - 5</h3>
-                <p className="mt-1 text-slate-600">
+              {/* ITEM */}
+              <div className="group cursor-pointer rounded-xl border border-slate-200 bg-white p-4 transition duration-300 hover:-translate-y-1 hover:bg-blue-50 hover:shadow-md">
+                <h3 className="font-semibold text-slate-800 transition group-hover:text-blue-600">
+                  Buổi 1 - 5
+                </h3>
+                <p className="mt-1 text-slate-500 transition group-hover:text-slate-700">
                   HTML, CSS, xây dựng bố cục giao diện cơ bản
                 </p>
               </div>
 
-              <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
-                <h3 className="font-semibold text-blue-800">Buổi 6 - 12</h3>
-                <p className="mt-1 text-slate-600">
+              <div className="group cursor-pointer rounded-xl border border-slate-200 bg-white p-4 transition duration-300 hover:-translate-y-1 hover:bg-blue-50 hover:shadow-md">
+                <h3 className="font-semibold text-slate-800 transition group-hover:text-blue-600">
+                  Buổi 6 - 12
+                </h3>
+                <p className="mt-1 text-slate-500 transition group-hover:text-slate-700">
                   JavaScript cơ bản đến nâng cao
                 </p>
               </div>
 
-              <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
-                <h3 className="font-semibold text-blue-800">Buổi 13 - 25</h3>
-                <p className="mt-1 text-slate-600">
+              <div className="group cursor-pointer rounded-xl border border-slate-200 bg-white p-4 transition duration-300 hover:-translate-y-1 hover:bg-blue-50 hover:shadow-md">
+                <h3 className="font-semibold text-slate-800 transition group-hover:text-blue-600">
+                  Buổi 13 - 25
+                </h3>
+                <p className="mt-1 text-slate-500 transition group-hover:text-slate-700">
                   ReactJS, component, props, state, routing
                 </p>
               </div>
 
-              <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
-                <h3 className="font-semibold text-blue-800">Buổi 26 - 48</h3>
-                <p className="mt-1 text-slate-600">
+              <div className="group cursor-pointer rounded-xl border border-slate-200 bg-white p-4 transition duration-300 hover:-translate-y-1 hover:bg-blue-50 hover:shadow-md">
+                <h3 className="font-semibold text-slate-800 transition group-hover:text-blue-600">
+                  Buổi 26 - 48
+                </h3>
+                <p className="mt-1 text-slate-500 transition group-hover:text-slate-700">
                   NodeJS, Express, MongoDB và project thực tế
                 </p>
               </div>
